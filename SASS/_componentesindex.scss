@@ -6,6 +6,11 @@
     flex-direction: column;
     margin-top: 50px;
 
+    .imagecontainer{
+
+        max-height: max-content;
+        width: 100%;
+    }
 
     .container {
 
@@ -22,6 +27,7 @@
             .imagecontainer{
 
                 max-height: max-content;
+                width: 100%;
 
                 .imagecontainer.active {
                     height: 100%;

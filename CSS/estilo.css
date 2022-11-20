@@ -38,6 +38,10 @@
   flex-direction: column;
   margin-top: 50px;
 }
+.contenedorgeneralmayor .imagecontainer {
+  max-height: max-content;
+  width: 100%;
+}
 .contenedorgeneralmayor .container {
   width: 100%;
   display: flex;
@@ -51,6 +55,7 @@
 }
 .contenedorgeneralmayor .container .imagecontainer {
   max-height: max-content;
+  width: 100%;
 }
 .contenedorgeneralmayor .container .imagecontainer .imagecontainer.active {
   height: 100%;
