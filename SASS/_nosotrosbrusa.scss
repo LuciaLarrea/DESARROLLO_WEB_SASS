@@ -1,0 +1,57 @@
+@use 'globales';
+
+.containernosotrosgeneral {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 100vw;
+
+    .containernosotros {
+        background-color: rgb(231, 215, 121);
+        margin-top: 30px;
+        padding: 30px 20px 10px 20px;
+        display: flex;
+        justify-content:space-between;
+        border-radius: 4px;
+        background-image: url("../IMG/texto-100-neutro-carbono-textura-natural_23-2149456303.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:contain;
+
+
+        .containernosotrosdiv h1 {
+            color: azure;
+            font-size: 45px;
+        }
+    }
+
+    .descripcioncontainernosotros {
+        font-size: 35px;
+        z-index: 1;
+    }
+
+    .containerresenageneral {
+        width: 100%;
+        font-size: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        padding: 20px;
+
+        @media only screen and (max-width:768px) {
+
+            display: flex;
+            justify-content:space-between;
+            flex-direction: column;
+            padding: 2px;
+    }
+
+        .nosotrosiconosydetalle {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+    }
+}
+
+

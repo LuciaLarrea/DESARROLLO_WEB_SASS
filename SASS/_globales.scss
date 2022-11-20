@@ -1,0 +1,46 @@
+
+//CONTACTOS//
+
+.containernosotrosgeneral {
+
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+
+.containercontactos {
+    background-color: rgb(127, 133, 133);
+    margin-top: 10px;
+    border-radius: 4px;
+    margin-left: 2px;
+    margin-right: 2px;
+
+    .contactos {
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px 10% 8px 10%;
+    }
+
+    .horizontalcontainer {
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+    
+        .containercontactos h2{
+
+            color: azure;
+            margin-left: 10px;
+        }    
+
+        .alineartexto{
+            align-items:center;
+            justify-content: center;
+        }
+    }
+
+}
+
+}
+
+.h2 {
+    font-family:cursive;
+}

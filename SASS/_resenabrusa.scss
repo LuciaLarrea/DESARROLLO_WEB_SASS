@@ -1,0 +1,91 @@
+@use 'globales';
+
+@-webkit-keyframes tracking-in-contract-bck-bottom {
+    0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px) translateY(300px);
+            transform: translateZ(400px) translateY(300px);
+    opacity: 0;
+    }
+    40% {
+    opacity: 0.6;
+    }
+    100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+    }
+}
+@keyframes tracking-in-contract-bck-bottom {
+    0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px) translateY(300px);
+            transform: translateZ(400px) translateY(300px);
+    opacity: 0;
+    }
+    40% {
+    opacity: 0.6;
+    }
+    100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+    }
+}
+
+.contenedorimagenresena {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    margin-bottom: 15px;
+
+    .imagecontainerbackground {
+        background-image: url("../IMG/ACONDICIONADOR-SOLIDO\ imagen\ 5.jpg");
+        padding: 10px;
+        width: 200vw;
+        height: 400px;
+        margin-top: 5px;
+    }
+
+}
+
+.textocentradoresena {
+        text-align: center;
+        font-size: 50px;
+        font-family: 'New Tegomin', serif;
+
+    .tracking-in-contract-bck-bottom {
+            -webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    }
+
+}
+.textogeneralresena {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'New Tegomin', serif;
+}
+
+.containerresenageneral {
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 20px;
+    margin-bottom: 15px;
+
+    .maxresenha {
+        align-items: center;
+    }
+}
+
+.contenedordejanoscomentario {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    height: auto;
+
+}
