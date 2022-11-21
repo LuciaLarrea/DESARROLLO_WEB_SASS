@@ -326,7 +326,17 @@
   align-items: center;
 }
 
-.contenedordejanoscomentario {
+.contenedordejanosmensajemayor {
+  margin-top: 45px;
+}
+@media only screen and (max-width: 768px) {
+  .contenedordejanosmensajemayor .contenedordejanosmensajemenor {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+}
+.contenedordejanosmensajemayor .contenedordejanoscomentario {
   margin-top: 30px;
   margin-bottom: 15px;
   margin-left: 10px;
