@@ -56,7 +56,7 @@
 
     .tracking-in-contract-bck-bottom {
             -webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-            animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+                    animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
     }
 
 }
@@ -80,12 +80,28 @@
     }
 }
 
-.contenedordejanoscomentario {
-    margin-top: 30px;
-    margin-bottom: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 100%;
-    height: auto;
+.contenedordejanosmensajemayor{
 
+    margin-top: 45px;
+
+    .contenedordejanosmensajemenor{
+
+        @media only screen and (max-width:768px) {
+
+            display: flex;
+            flex-direction: column;
+            padding: 5px; 
+
+        }
+    }
+
+    .contenedordejanoscomentario {
+        margin-top: 30px;
+        margin-bottom: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
+        height: auto;
+
+    }
 }
