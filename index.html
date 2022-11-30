@@ -28,7 +28,15 @@
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
               <a class="nav-link navbartexto" href="./PAGES/NosotrosBrusa.html">Nosotros</a>
-              <a class="nav-link navbartexto" href="./PAGES/NuestrosProductosBrusa.html">Nuestros productos</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Nuestros productos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./PAGES/NuestrosProductosshampoo.html">Shampoo</a></li>
+                  <li><a class="dropdown-item" href="./PAGES/NuestrosProductosacondicionador.html">Acondicionador</a></li>
+                </ul>
+              </li>
               <a class="nav-link navbartexto" href="./PAGES/ResenaBrusa.html">Nuestros clientes</a>
               <a class="nav-link navbartexto" href="./PAGES/ContactosBrusa.html">Contacto</a>
             </div>
@@ -39,7 +47,7 @@
 <body>
     <main class="contenedorgeneralmayor container-{breakpoint}">
 
-        <div class="container">
+      <div class="container">
             <div class="imagecontainer">
 
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
@@ -99,20 +107,20 @@
             <div class="containercontactos">
                 <h2>Nos queremos conectados</h2>
                 <div class="horizontalcontainer contactos">
+                      <div>
+                          <div>
+                             <a title="Instagram" href="https://www.instagram.com/" target="_blank"><i class="icon-instagram icon-4x"></i></a>
+                          </div>
+                          <div>
+                          <a title="Linkedim" href="https://ar.linkedin.com/" target="_blank"><i class="icon-linkedin icon-4x"></i></a>
+                          </div>
+                      </div>
                     <div>
                         <div>
-                            <i class="icon-instagram icon-4x"></i>
+                          <a title="icon-facebook-sign" href="https://es-la.facebook.com/" target="_blank"><i class="icon-facebook-sign icon-4x"></i></a>
                         </div>
                         <div>
-                            <i class="icon-linkedin icon-4x"></i>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <i class="icon-facebook-sign icon-4x"></i> 
-                        </div>
-                        <div>
-                            <i class="icon-youtube icon-4x"></i> 
+                          <a title="icon-facebook-sign" href="https://www.youtube.com/?hl=es&gl=AR" target="_blank"><i class="icon-youtube icon-4x"></i></a>
                         </div>
                     </div>
                     <div>
@@ -125,8 +133,15 @@
                             <span class="mobiletextocontactos d-none d-lg-block">nomina@brusasustentable.com.ar</span>
                         </div>
                     </div>
+                  
                 </div>
             </div>
+
+            <div class="fondoderechosreservados">
+              <span style=color:whitesmoke>2022 © Brusa - Todos los derechos reservados.
+                Términos y condiciones. Políticas de privacidad. Política de calidad.</span>
+            </div>
+
         </div>
     </main>
 <div class="iconofijo"> <i class="icon-comments icon-4x"></i></div>
