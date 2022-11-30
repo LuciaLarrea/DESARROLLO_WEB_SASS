@@ -52,3 +52,38 @@
 .fondoderechosreservados{
     background-color: black;
 }
+
+.containercontactos {
+    background-color: rgb(127, 133, 133);
+    margin-top: 15px;
+    border-radius: 4px;
+    margin: 2px 2px 2px 2px;
+
+    .contactos {
+        justify-content: space-between;
+        padding: 8px 10% 8px 10%;
+    }
+
+    .horizontalcontainer {
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+    
+        .containercontactos h2{
+            color: azure;
+            margin-left: 10px;
+        }    
+
+        .alineartexto{
+            align-items:center;
+            justify-content:left;
+        }
+    }
+
+}
+
+.fondoderechosreservados{
+    background-color: black;
+    text-align: center;
+}
+

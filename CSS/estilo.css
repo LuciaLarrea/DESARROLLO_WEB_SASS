@@ -40,6 +40,35 @@
   background-color: black;
 }
 
+.containercontactos {
+  background-color: rgb(127, 133, 133);
+  margin-top: 15px;
+  border-radius: 4px;
+  margin: 2px 2px 2px 2px;
+}
+.containercontactos .contactos {
+  justify-content: space-between;
+  padding: 8px 10% 8px 10%;
+}
+.containercontactos .horizontalcontainer {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+.containercontactos .horizontalcontainer .containercontactos h2 {
+  color: azure;
+  margin-left: 10px;
+}
+.containercontactos .horizontalcontainer .alineartexto {
+  align-items: center;
+  justify-content: left;
+}
+
+.fondoderechosreservados {
+  background-color: black;
+  text-align: center;
+}
+
 .contenedorgeneralmayor {
   margin-top: 50px;
   flex-direction: column;
@@ -125,7 +154,7 @@
 }
 .contenedorgeneralmayor .container .containercontactos .horizontalcontainer .alineartexto {
   align-items: center;
-  justify-content: center;
+  justify-content: left;
 }
 .contenedorgeneralmayor .navbartexto {
   padding: 8px 10px 8px 10px;
@@ -234,6 +263,11 @@
 .containernosotrosgeneral .descripcioncontainernosotros {
   font-size: 35px;
   z-index: 1;
+}
+@media only screen and (max-width: 768px) {
+  .containernosotrosgeneral .descripcioncontainernosotros {
+    font-size: 20px;
+  }
 }
 .containernosotrosgeneral .containerresenageneral {
   width: 100%;
