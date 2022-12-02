@@ -86,7 +86,9 @@
 .textocentradoresena {
         text-align: center;
         font-size: 50px;
-        font-family: 'New Tegomin', serif;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #125462;
+
 
         @media only screen and (max-width:768px) {
 
@@ -103,7 +105,7 @@
 .textogeneralresena {
     text-align: center;
     font-size: 25px;
-    font-family: 'New Tegomin', serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
     @media only screen and (max-width:768px) {
 
@@ -124,6 +126,13 @@
     .flip-diagonal-2-tl {
         -webkit-animation: flip-diagonal-2-tl 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
                 animation: flip-diagonal-2-tl 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+    }
+
+    .colornombres{
+        color:#f6ada6;
+    }
+    .colornombres2{
+        color: #ec5bab;
     }
 
     @media only screen and (max-width:768px) {
@@ -165,3 +174,4 @@
 
     }
 }
+
